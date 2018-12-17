@@ -22,10 +22,16 @@ text-align: left;
     text-align: center;
 }
 #randLocForm{
-    padding-top: 5vh;
+    padding-top: 2vh;
 }
-#map1{
-    width: 40vw;
+/* #map1{
+    width: 35vw;
+} */
+#map{
+    width: 50vw;
+    height: 40vh;
+    /* text-align: center; */
+    margin: 0 auto;
 }
 #randLocOutput{
     text-align: center;

@@ -8,19 +8,24 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/newLocStyles.css">
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXVTbZaaEgvZBiK58R0Na12Rq5NvgX16A&locations=places"></script> -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXVTbZaaEgvZBiK58R0Na12Rq5NvgX16A&libraries=places"></script>
+
+
 </head>
 <body>
     <div id="leftSide">
         <img src="/figmaDesigns/FoodPickrLogo.PNG" alt="" id="foodPickrLogo">
-        <div id="newLocationBody">
+        <div id="newLocationBody">  
             <form action="" id="randLocForm">
-                    <input type="text" name="" id="" placeholder="Enter Zip/Street">
+                    <input type="text" name="" id="searchLocation" placeholder="Enter Zip/Street">
                     <br>
-                    <input type="text" name="" id="" placeholder="How Far Away? (Miles)">
+                    <input type="text" name="" id="radius" placeholder="How Far Away? (30m max)">
                     <br>
-                    <input type="button" value="Find Me Nearby Food!" id="goToLocation">
+                    <input type="button" value="Find Me Nearby Food!" id="goToLocationButton">
             </form>
-            <img src="/figmaDesigns/GoogleFoodMap.PNG" alt="" id="map1">
+            <!-- <img src="/figmaDesigns/GoogleFoodMap.PNG" alt="" id="map1"> -->
+            <div id="map"></div>
         </div>
         <div id="randLocOutput">
             <p id="randLocOutputText">This is where the title, address, phone number
@@ -32,7 +37,11 @@
     <div id="rightSide">
         <img src="/vectorImages/right-arrow.svg" id="rightArrow" type="">
     </div>
+    <div id="map"></div>
 
-    <script src="linkJS.js"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXVTbZaaEgvZBiK58R0Na12Rq5NvgX16A&libraries=places"></script> -->
+    <script src="/js/nearby.js"></script>
+
+    
 </body>
 </html>

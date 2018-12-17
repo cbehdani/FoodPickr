@@ -81,8 +81,8 @@ input{
     margin: 3px;
     padding: 5px;
     padding-bottom: 3px;
-    width: 20vw;
-    max-width: 16vw;
+    width: 22vw;
+    /* max-width: 16vw; */
 }
 #favLoc{
     width: 24vw;
@@ -99,7 +99,7 @@ input{
     max-width: 80px;
     position: relative;
     left: 42vw;
-    top: 47vh;
+    top: 40vh;
     border: 1px solid black;
     border-radius: 50%;
 }
