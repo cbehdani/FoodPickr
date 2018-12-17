@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Cabin Sketch';
+}
+#leftSide{
+    float: left;
+    width: 50%;
+    background-color: #08E596;
+    height: 100vh;
+
+}
+#rightSide{
+    float: right;
+    width: 50%;
+}
+#headingSecLeft, #headingSecRight{
+    position: relative;
+    top: 16vh;
+    font-size: 4.5vw;
+}
+#headingSecLeft{
+    float: right;
+}
+#headingSecRight{
+    float: left;
+}
+#title1, #title2{
+    display: inline;
+    font-size: 10vw;
+}
+
+#title1{
+    color: white;
+    border-bottom: 5px solid white;
+    padding-right: 1vw;
+    padding-left: 31vw;
+}
+
+#title2{
+    color: #08E596;
+    border-top: 5px solid #08E596;
+    padding-left: 1vw;
+    padding-right: 27.7vw;
+
+}
+#randomLoc{
+    width: 24vw;
+    /* height: 48%; */
+    background: white;
+    position: relative;
+    top: 44vh;
+    left: 3vw;
+}
+/* #randomLocBody{
+    height: 20px;
+} */
+homeForm{
+    height: 10px;
+    position: relative;
+    top: -12vh;
+}
+.subHeader{
+    font-size: 2.5vw;
+    margin: 0px;
+    float: left;
+    width: 60%;
+    position: relative;
+    top: -10vw;
+}
+#randomLocImage{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    float: right;
+    width: 30%;
+    top:-8vw;
+    left:-2vw;
+}
+input{
+    margin: 3px;
+    padding: 5px;
+    padding-bottom: 3px;
+    width: 20vw;
+    max-width: 16vw;
+}
+#favLoc{
+    width: 24vw;
+    /* height: 50vh; */
+    background: #08E596;
+    position: relative;
+    top: 44vh;
+    left: 22vw;
+}
+#tacoBubbleOuter{
+    background: white;
+    height: 10vh;
+    width: 10vw;
+    max-width: 80px;
+    position: relative;
+    left: 42vw;
+    top: 47vh;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#tacoBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+}
+

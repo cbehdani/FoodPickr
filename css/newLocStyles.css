@@ -1,0 +1,42 @@
+body{
+text-align: left;
+}
+#leftSide{
+    width: 90%;
+}
+#rightSide{
+    width: 10%;
+}
+#rightArrow{
+    height: 10vh;
+    width: 10vw;
+    position: relative;
+    left: -12vw;
+    top: 4vh
+}
+#foodPickrLogo{
+    width: 30vw;
+    padding: 10px 0 0 10px;
+}
+#newLocationBody{
+    text-align: center;
+}
+#randLocForm{
+    padding-top: 5vh;
+}
+#map1{
+    width: 40vw;
+}
+#randLocOutput{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* background-color: white; */
+    /* width: 5vw; */
+    /* width: 50%; */
+}
+#randLocFavorite{
+    text-align: center;
+    width: 50px;
+    margin-left: 50%;
+}
