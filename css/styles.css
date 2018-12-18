@@ -2,6 +2,8 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Cabin Sketch';
+    /* overflow-x: hidden; */
+    overflow-y: hidden;
 }
 #leftSide{
     float: left;
@@ -92,22 +94,148 @@ input{
     top: 44vh;
     left: 22vw;
 }
-#tacoBubbleOuter{
-    background: white;
+.outer{
     height: 10vh;
     width: 10vw;
     max-width: 80px;
     position: relative;
-    left: 42vw;
-    top: 40vh;
     border: 1px solid black;
     border-radius: 50%;
 }
-#tacoBubbleInner{
+.inner{
     width: 70%;
     height: 70%;
     margin: 0% auto;
     position: relative;
     top: 15%;   
 }
+#coffeeBubbleOuter{
+    background: white;
+    left: 36vw;
+    top: -5vh;
+}
+/* #coffeeBubbleInner{
 
+} */
+#friesBubbleOuter{
+    background: white;
+    left: 41.5vw;
+    top: -3vh;
+}
+/* #friesBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#saladBubbleOuter{
+    background: white;
+    left: 32.5vw;
+    top: -8vh;
+
+}
+/* #saladBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#burgerBubbleOuter{
+    background: white;
+    left: 38vw;
+    top: -8vh;
+}
+/* #burgerBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#pizzaBubbleOuter{
+    background: white;
+    left: 30vw;
+    top: -9vh;
+}
+/* #pizzaBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#tacoBubbleOuter{
+    background: white;
+    left: 42vw;
+    top: -16vh;
+
+}
+/* #tacoBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#iceCreamBubbleOuter{
+    background: #08E596;
+    left: 6vw;
+    top: 0vh;
+}
+/* #iceCreamBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#riceBubbleOuter{
+    background: #08E596;
+    left: 12vw;
+    top: 0vh;
+}
+/* #riceBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#kebabBubbleOuter{
+    background: #08E596;
+    left: 3vw;
+    top: 0vh;
+}
+/* #kebabBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#sushiBubbleOuter{
+    background: #08E596;
+    left: 12vw;
+    top: -2vh;
+}
+/* #sushiBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
+#pastaBubbleOuter{
+    background: #08E596;
+    left: 5vw;
+    top: -4vh;
+}
+/* #pastaBubbleInner{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto;
+    position: relative;
+    top: 15%;   
+} */
